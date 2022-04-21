@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  min-height: 100vh;
+  text-align: center;
+}
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-grow: 1;
+}
+.content {
+  text-align: left;
+}
+.prof {
+  width: 400px;
+}
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.main-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.secondary-text,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.button {
+  background-color: #3882f6;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+h2 {
+  margin: 50px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.card {
+  width: 150px;
+}
+.picture {
+  width: fill;
+  height: 100px;
+  border-radius: 5px;
+  border: #3882f6 solid;
+}
+.quote {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-itself {
+  width: 700px;
+  text-align: left;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.shell {
+  background-color: #3882f6;
+  padding: 50px 200px;
+  border-radius: 5px;
+  display: flex;
+  text-align: left;
+  color: #f9faf8;
+  align-items: center;
+  gap: 50px;
+}
+h3,
+.button-text {
+  margin: 0;
+}
+.button.blue {
+  border: #f9faf8 solid;
+  align-self: baseline;
+}
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.copy {
+  color: #f9faf8;
+}
